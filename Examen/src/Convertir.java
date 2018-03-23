@@ -16,9 +16,10 @@ public class Convertir extends JFrame {
 	private JTextField horasR;
 	private JTextField minutosR;
 	private JTextField segundosR;
-	 private JButton btnAceptar;
-	 private JTextField R;
-	 public Convertir (String titulo) {
+	private JButton btnAceptar;
+	private JTextField R;
+	public Convertir (String titulo) {
+		
 		 Container contenedorPrincipal = this.getContentPane();
 		 this.setTitle(titulo);
 	     this.setResizable(true);
